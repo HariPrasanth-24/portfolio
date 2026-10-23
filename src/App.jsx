@@ -804,6 +804,53 @@ GitHub
 
 </motion.div>
 
+    {/* PROJECT 4 — AI IMAGE TAMPERING DETECTION */}
+    <motion.div
+      whileHover={{ y: -12, scale: 1.03 }}
+      transition={{ type: "spring", stiffness: 200 }}
+      className="group relative bg-[#020617] rounded-xl overflow-hidden border border-gray-800 hover:border-cyan-400/40"
+    >
+      {/* IMAGE */}
+      <div className="overflow-hidden">
+        <img
+          src="/project4.png"
+          alt="AI Image Tampering Detection"
+          className="w-full h-56 object-cover group-hover:scale-110 transition duration-500"
+        />
+      </div>
+
+      {/* CONTENT */}
+      <div className="p-6">
+        <h3 className="text-xl font-semibold text-cyan-400 mb-3">
+          AI-Driven Original and Tampered Image Detection
+        </h3>
+
+        <p className="text-gray-400 mb-6">
+          An AI-based system that detects manipulated images and identifies
+          suspicious regions using CNN, Vision Transformer, and LLM-based analysis.
+        </p>
+
+        {/* TECH STACK */}
+        <div className="flex flex-wrap gap-2 mb-6">
+          <span className="bg-gray-800 px-3 py-1 rounded-full text-sm">
+            Python
+          </span>
+          <span className="bg-gray-800 px-3 py-1 rounded-full text-sm">
+            TensorFlow/Keras
+          </span>
+          <span className="bg-gray-800 px-3 py-1 rounded-full text-sm">
+            CNN
+          </span>
+          <span className="bg-gray-800 px-3 py-1 rounded-full text-sm">
+            Vision Transformer
+          </span>
+          <span className="bg-gray-800 px-3 py-1 rounded-full text-sm">
+            OpenCV
+          </span>
+        </div>
+      </div>
+    </motion.div>
+
   </div>
 
 </section>
